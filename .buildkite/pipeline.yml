@@ -1,0 +1,17 @@
+steps:
+  - group: ":lock_with_ink_pen: Security Audits"
+    key: "audits"
+    steps:
+      - label: ":brakeman: Brakeman"
+        command: "echo .buildkite/steps/brakeman"
+      - label: ":yarn: Yarn Audit"
+        command: "echo .buildkite/steps/yarn"
+      - label: ":date: Outdated Check"
+        command: "echo .buildkite/steps/outdated"
+  - group: "Linting"
+    key: "linters"
+    steps:
+      - label: ":lint-roller: Linting task"
+        command: "echo .buildkite/steps/linter"
+      - label: ":lint-roller: Linting code"
+        command: "echo .buildkite/steps/code-linter"
