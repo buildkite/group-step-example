@@ -15,6 +15,18 @@ See the full [Getting Started Guide](https://buildkite.com/docs/guides/getting-s
   <img src=".buildkite/screenshot.png" alt="Screenshot of Buildkite group step example pipeline" />
 </a>
 
+<!-- docs:start -->
+
+This example demonstrates how to group steps into logical categories to improve readability in the Buildkite UI.
+
+It includes two groups:
+- **Security Audits**
+- **Linting**
+
+Each group contains one or more steps that run independently or in sequence, grouped under a shared heading in the UI.
+
+<!-- docs:end -->
+
 ## License
 
 See [LICENSE](LICENSE) (MIT)
