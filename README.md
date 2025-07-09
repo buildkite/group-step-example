@@ -1,6 +1,6 @@
 # Buildkite Group Step Example
 
-[![Build status](https://badge.buildkite.com/2498b17f422c03d63ec799bed2c500facaa70ec87b5f88377a.svg?branch=main)](https://buildkite.com/buildkite/group-step-example)
+[![Build status](https://badge.buildkite.com/2498b17f422c03d63ec799bed2c500facaa70ec87b5f88377a.svg?branch=main)](https://buildkite.com/buildkite/group-step-example/builds/latest?branch=main)
 [![Add to Buildkite](https://img.shields.io/badge/Add%20to%20Buildkite-14CC80)](https://buildkite.com/new)
 
 This repository is an example [Buildkite](https://buildkite.com/) pipeline that [groups steps](https://buildkite.com/docs/pipelines/group-step) into two groups, Security Audits and Linting.
@@ -15,6 +15,18 @@ See the full [Getting Started Guide](https://buildkite.com/docs/guides/getting-s
   <img src=".buildkite/screenshot.png" alt="Screenshot of Buildkite group step example pipeline" />
 </a>
 
+<!-- docs:start -->
+
+This example demonstrates how to group steps into logical categories to improve readability in the Buildkite UI.
+
+It includes two groups:
+- **Security Audits**
+- **Linting**
+
+Each group contains one or more steps that run independently or in sequence, grouped under a shared heading in the UI.
+
+<!-- docs:end -->
+
 ## License
 
-See [LICENSE](LICENSE) (MIT)
+See [LICENSE.md](LICENSE.md) (MIT)
